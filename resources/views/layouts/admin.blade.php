@@ -27,32 +27,33 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="wrapper">
 
         <!-- Navbar -->
-       @include('admin.includes.navbar')
+        @include('admin.includes.navbar')
         <!-- /.navbar -->
 
         <!-- Main Sidebar Container -->
-       @include('admin.includes.sidebar')
+        @include('admin.includes.sidebar')
 
         <!-- Content Wrapper. Contains page content -->
-       @include('admin.includes.content')
+        @include('admin.includes.content')
         <!-- /.content-wrapper -->
 
-        
+
 
         <!-- Main Footer -->
-       @include('admin.includes.footer')
+        @include('admin.includes.footer')
     </div>
     <!-- ./wrapper -->
 
     <!-- REQUIRED SCRIPTS -->
 
     <!-- jQuery -->
-    <script src="{{asset('assets/admin/plugins/jquery/jquery.min.js')}}"></script>
+    <script src="{{ asset('assets/admin/plugins/jquery/jquery.min.js') }}"></script>
     <!-- Bootstrap 4 -->
-    <script src="{{asset('assets/admin/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ asset('assets/admin/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <!-- AdminLTE App -->
-    <script src="{{asset('assets/admin/dist/js/adminlte.min.js')}}"></script>
-    
+    <script src="{{ asset('assets/admin/dist/js/adminlte.min.js') }}"></script>
+    <script src="{{ asset('assets/admin/js/general.js') }}"></script>
+
     @yield('script')
 </body>
 

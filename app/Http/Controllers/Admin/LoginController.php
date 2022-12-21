@@ -28,7 +28,7 @@ class LoginController extends Controller
     // public function make_new_admin()
     // {
     //     $admin=new App\Models\Admin();
-    //     $admin->name='admin';
+    //     $admin->name=' قصر نابولي';
     //     $admin->email="admin@admin.com";
     //     $admin->username="admin";
     //     $admin->password=bcrypt('admin');
